@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+header, form {
+    padding-top: 250px;
+}
+
+form {
+    padding: 24px 0;
+    text-align: center;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+ul {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+ul li {
+    cursor: pointer;
+    text-align: center;
+    flex-direction: row;
+    padding: 8px;
+}
+
+.item-completado {
+    text-decoration: line-through;
+}
+
+
+
